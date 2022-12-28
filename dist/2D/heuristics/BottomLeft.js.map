@@ -1,0 +1,1 @@
+{"version":3,"file":"BottomLeft.js","sourceRoot":"","sources":["../../../src/2D/heuristics/BottomLeft.ts"],"names":[],"mappings":";;;;;AAAA,mDAA+C;AAC/C,qDAA4B;AAE5B,MAAqB,UAAW,SAAQ,6BAAa;IACnD,cAAc,CAAC,QAAQ,EAAE,SAAS,EAAE,UAAU;QAC5C,IAAI,QAAQ,GAAG,QAAQ,CAAC,CAAC,GAAG,UAAU,CAAA;QACtC,OAAO,IAAI,eAAK,CAAC,QAAQ,EAAE,QAAQ,CAAC,CAAC,CAAC,CAAA;IACxC,CAAC;CACF;AALD,6BAKC"}
