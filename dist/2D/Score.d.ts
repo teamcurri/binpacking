@@ -4,8 +4,8 @@ export default class Score {
     score2: number;
     constructor(score1?: number, score2?: number);
     valueOf(): number;
-    assign(other: any): void;
+    assign(other: Score): void;
     isBlank(): boolean;
-    decreaseBy(delta: any): void;
+    decreaseBy(delta: number): void;
 }
 //# sourceMappingURL=Score.d.ts.map

@@ -13,8 +13,8 @@ class Score {
         return this.score1 + this.score2;
     }
     assign(other) {
-        this.score1 = other.score_1;
-        this.score2 = other.score_2;
+        this.score1 = other.score1;
+        this.score2 = other.score2;
     }
     isBlank() {
         return this.score1 === Score.MAX_INT;
