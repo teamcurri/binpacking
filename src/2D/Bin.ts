@@ -10,7 +10,7 @@ export default class Bin {
   heuristic: HeuristicBase = new BestShortSideFit()
   freeSpaces: FreeSpaceBox[] = []
 
-  constructor(width, height, heuristic) {
+  constructor(width: number, height: number, heuristic?: HeuristicBase) {
     this.width = width
     this.height = height
     this.freeSpaces = [new FreeSpaceBox(width, height)]

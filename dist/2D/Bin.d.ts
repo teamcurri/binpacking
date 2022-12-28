@@ -7,7 +7,7 @@ export default class Bin {
     boxes: Box[];
     heuristic: HeuristicBase;
     freeSpaces: FreeSpaceBox[];
-    constructor(width: any, height: any, heuristic: any);
+    constructor(width: number, height: number, heuristic?: HeuristicBase);
     get area(): number;
     get efficiency(): number;
     get label(): string;

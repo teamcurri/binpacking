@@ -7,7 +7,7 @@ export default class ScoreBoardEntry {
   box?: Box | null = null
   score?: Score | null = null
 
-  constructor(bin, box) {
+  constructor(bin?: Bin, box?: Box) {
     this.bin = bin
     this.box = box
   }

@@ -5,7 +5,7 @@ export default class ScoreBoardEntry {
     bin?: Bin | null;
     box?: Box | null;
     score?: Score | null;
-    constructor(bin: any, box: any);
+    constructor(bin?: Bin, box?: Box);
     calculate(): Score | undefined;
     fit(): boolean;
 }
